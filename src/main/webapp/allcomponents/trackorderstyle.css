@@ -1,0 +1,32 @@
+.center-table{
+	margin: 0 auto;
+	 margin-top:30px;
+}
+
+table{
+	font-family: arial, sans-serif;
+	 border-collapse: collapse;
+	 width:80%;
+	 font-size: 15px;
+	
+}
+th{
+	background-color: seagreen;
+	color:white;
+}
+
+
+td, th {
+  
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.row
+{
+	font-weight: bold;
+}

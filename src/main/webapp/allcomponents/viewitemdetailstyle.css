@@ -1,0 +1,106 @@
+body{
+           background-color: white;
+        }
+        .container1
+        {
+            position: relative;
+            width: 100%;
+            min-height: 400px;
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+
+
+        }
+        .container1 .left-side{
+            position: relative;
+            background: whitesmoke;
+            padding: 40px;
+        }
+        .container1 .left-side img
+        {
+            margin-left: 10px;
+            width: 400px;
+            height: 400px;
+        }
+
+
+        .container1 .right-side{
+            position: relative;
+            background: whitesmoke;
+            padding: 40px;
+
+
+        }
+        .container1 .right-side p{
+            font-size: 25px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-left: -40px ;
+        }
+        .container1 .right-side h3{
+            color: seagreen;
+            font-weight: bold;
+            margin-left: -40px ;
+        }
+         .container1 .right-side h4{
+            color: black;
+            font-weight: normal;
+            margin-left: -40px ;
+        }
+        
+        
+        .container1 .right-side i{
+            font-size: 16px;
+
+        }
+        .container1 .right-side .hr{
+            width: 113%;
+            height: 0.5px;
+            background-color: lightgray;
+            margin-left: -70px ;
+        }
+        .container1 label{
+
+            font-size: 20px;
+            margin-left: -40px ;
+
+        }
+       .container1 input[type=number]{
+            width: 10%;
+            padding: 15px;
+            display: inline-block;
+            border:none;
+            background: #bdcebe;
+            margin-top: 30px;
+
+        }
+        .container1 input,min{
+            font-size: 15px;
+            color: #0a53be;
+
+        }
+
+       .container1 button{
+            background-color: darkslategray;
+            color: white;
+            padding: 15px 16px;
+            margin-left: 5px;
+            margin-top: 10px;
+            border: none;
+            cursor: pointer;
+            width: 20%;
+            opacity: 0.8;
+            font-size: 15px;
+        }
+
+       .container1 button:hover {
+            opacity:1;
+        }
+
+        .container1 .right-side .hr1{
+            width: 113%;
+            height: 0.5px;
+            background-color: lightgray;
+            margin-left: -70px ;
+            margin-top: 30px;
+        }
